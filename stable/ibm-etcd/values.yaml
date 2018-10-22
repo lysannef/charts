@@ -1,17 +1,18 @@
-# Default values for nodered.
+# Default values for etcd.
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
 replicaCount: 1
 
 image:
-  repository: andrewlaidlaw/node-red-watson-ppc64le
-  tag: latest
+  repository: ibmcom/etcd-ppc64le
+  tag: v3.2.14
   pullPolicy: IfNotPresent
 
 service:
-  type: ClusterIP
-  port: 1880
+  type: NodePort
+  clientPort: 2379
+  peerPort: 2380
 
 ingress:
   enabled: false
@@ -38,8 +39,9 @@ resources: {}
   #  cpu: 100m
   #  memory: 128Mi
 
-nodeSelector:
+nodeSelector: 
   beta.kubernetes.io/arch: "ppc64le"
+
 
 tolerations: []
 
@@ -52,4 +54,5 @@ affinity:
           operator: In
           values:
           - "ppc64le"
+
 

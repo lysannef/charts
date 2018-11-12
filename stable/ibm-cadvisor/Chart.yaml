@@ -3,7 +3,11 @@ appVersion: "1.0"
 description: Analyzes resource usage and performance characteristics of running containers.
 engine: gotpl
 home: https://prometheus.io/docs/guides/cadvisor/
+<<<<<<< HEAD
 icon: https://github.com/ppc64le/charts/tree/master/logo/cadvisor.png?sanitize=true
+=======
+icon: https://github.com/ppc64le/charts/tree/master/logo/cadvisor.png
+>>>>>>> upstream/master
 keywords:
 - cadvisor
 - analyser
@@ -14,7 +18,11 @@ keywords:
 - ICP
 
 maintainers:
+<<<<<<< HEAD
 - email: lysannef@us.ibm.com 
+=======
+- email: lysannef@us.ibm.com
+>>>>>>> upstream/master
   name: IBM ISV Team
 
 name: ibm-cadvisor

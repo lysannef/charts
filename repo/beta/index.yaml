@@ -3,7 +3,7 @@ entries:
   ibm-node-red-dev:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-11-28T03:54:17.140330487-08:00
+    created: 2018-11-28T05:31:20.983700193-08:00
     description: A visual tool for wiring the Internet of Things system.
     digest: 320eb34c7e34a84a279256592cbdb4207397b7148fa38deb03275a6bcb6a5b40
     engine: gotpl
@@ -27,12 +27,12 @@ entries:
     - https://github.com/node-red/node-red
     tillerVersion: '>=2.7.2'
     urls:
-    - https://raw.githubusercontent.com/ppc64le/charts/master/repo/stable/ibm-node-red-dev-0.1.0.tgz
+    - https://lysannef.github.io/charts/ibm-node-red-dev-0.1.0.tgz
     version: 0.1.0
   ibm-rstudio-dev:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-11-28T03:54:17.141410052-08:00
+    created: 2018-11-28T05:31:20.98467191-08:00
     description: RStudio is an integrated development environment (IDE) for R
     digest: 042e298fe1264d5c6f8834083084d0cea9e5926c07960d43f856e8037845da32
     engine: gotpl
@@ -55,6 +55,6 @@ entries:
     - https://hub.docker.com/r/ppc64le/rstudio/
     tillerVersion: '>=2.7.2'
     urls:
-    - https://raw.githubusercontent.com/ppc64le/charts/master/repo/stable/ibm-rstudio-dev-0.1.0.tgz
+    - https://lysannef.github.io/charts/ibm-rstudio-dev-0.1.0.tgz
     version: 0.1.0
-generated: 2018-11-28T03:54:17.139024619-08:00
+generated: 2018-11-28T05:31:20.982436605-08:00
